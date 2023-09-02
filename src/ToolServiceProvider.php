@@ -22,9 +22,7 @@ class ToolServiceProvider extends ServiceProvider
             $this->routes();
         });
 
-        Nova::serving(function (ServingNova $event) {
-            //
-        });
+
     }
 
     /**
