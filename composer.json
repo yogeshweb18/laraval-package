@@ -13,12 +13,5 @@
         "psr-4": {
             "Axistrustee\\ComplianceOverview\\": "src/"
         }
-    },
-    // "extra": {
-    //     "laravel": {
-    //         "providers": [
-    //             "Axistrustee\\ComplianceOverview\\ToolServiceProvider"
-    //         ]
-    //     }
-    // }
+    }
 }
