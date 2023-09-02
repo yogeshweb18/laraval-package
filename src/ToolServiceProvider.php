@@ -42,7 +42,7 @@ class ToolServiceProvider extends ServiceProvider
         //     ->group(__DIR__.'/../routes/inertia.php');
 
         // Route::middleware(['nova', Authorize::class])
-        //     ->prefix('nova-vendor/compliance-overview')
+        //     ->prefix('nova-vendor/compliance-overview') 
         //     ->group(__DIR__.'/../routes/api.php');
     }
 
