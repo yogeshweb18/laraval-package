@@ -7,11 +7,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=8.0"
+        "php": ">=5.6"
     },
-    "autoload": {
-        "psr-4": {
-            "Axistrustee\\ComplianceOverview\\": "src/"
-        }
-    }
+    
 }
