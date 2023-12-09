@@ -111,7 +111,7 @@
               </label>
             </div>
             <div class="md:mt-0 px-6 md:px-8 w-full md:w-3/5 md:py-5">
-              <input type="text" placeholder="Enter Inconsistency Treatment" v-model="compliance.inconsistencyTreatment" class="w-full form-control form-input form-input-bordered" id="name-create-inconsistencyTreatment-text-field" name="inconsistencyTreatment" dusk="inconsistencyTreatment" list="name-list" required="required"><!----><!----><!---->
+              <input type="text" placeholder="Enter Inconsistency Treatment" v-model="compliance.inconsistencyTreatment" class="w-full form-control form-input form-input-bordered" id="name-create-inconsistencyTreatment-text-field" name="inconsistencyTreatment" dusk="inconsistencyTreatment" list="name-list" required="required" pattern="^[a-zA-Z0-9 ]+$"><!----><!----><!---->
             </div>
           </div>
 
